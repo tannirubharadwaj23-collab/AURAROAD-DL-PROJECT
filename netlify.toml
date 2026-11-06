@@ -1,0 +1,9 @@
+# Netlify Configuration for AuraRoad DL
+[build]
+  publish = "netlify_site"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
